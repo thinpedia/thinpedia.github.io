@@ -215,14 +215,14 @@ body {
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #21CE99;
+  border-color: #21CE99;
 }
 
 /* nav background on mobile */
 nav {
-  background: #6ab47b;
-  text-decoration-color: #6ab47b;
+  background: #21CE99;
+  text-decoration-color: #21CE99;
 }
 
 /* logo text */
