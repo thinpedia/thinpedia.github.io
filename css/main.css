@@ -7,20 +7,20 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-#wrapper { 
+#wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
 }
 
-a { text-decoration: none; 
+a { text-decoration: none;
 }
 
 img {
   max-width: 100%;
 }
 
-h3 { 
+h3 {
   margin: 0 0 1em 0;
 }
 
@@ -36,7 +36,7 @@ header {
   padding: 5px 0 0 0;
   width: 100%;
 }
-  
+
 #logo {
   text-align: center;
   margin: 0;
@@ -48,12 +48,49 @@ h1 {
  font-size: 1.75em;
  font-weight: normal;
  line-height: 0.8em;
-} 
+}
 
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
+}
+.svg-container {
+  width: 250px;
+  height: 500vh;
+  margin: 0 auto;
+  //border: 1px solid red;
+}
+
+@-webkit-keyframes strand-shrink {
+  0% {
+    transform: scaleX(1);
+  }
+  25% {
+    transform: scaleX(.5);
+  }
+  50% {
+    transform: scaleX(0.01);
+  }
+  75% {
+    transform: scaleX(.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+#blue-back {
+
+}
+#blue-front {
+
+}
+.strand-shrink {
+
+  transform-origin: bottom;
+  animation: strand-shrink 2s linear infinite;
+  -moz-animation: strand-shrink 2s linear infinite;
+  -webkit-animation: strand-shrink 2s linear infinite;
 }
 
 /************************
@@ -183,7 +220,7 @@ header {
 }
 
 /* nav background on mobile */
-nav { 
+nav {
   background: #6ab47b;
   text-decoration-color: #6ab47b;
 }
@@ -194,11 +231,11 @@ h1, h2 {
 }
 
 /* links */
-a { 
+a {
   color: #6ab47b;
 }
 
-nav a, nav a:visited { 
+nav a, nav a:visited {
   color: #fff;
 }
 
